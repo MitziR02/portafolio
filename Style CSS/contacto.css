@@ -1,0 +1,44 @@
+.contactCont{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: var(--azulOscT);
+}
+.titContact{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--dorado);
+}
+
+.contactElemento{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContact{
+    text-decoration: none;
+    color: var(--azulB);
+    margin-bottom: .5rem;
+}
+
+.iconContact:hover{
+    color: var(--dorado);
+    font-size: 2rem;    
+}
+
+.infoContac{
+    text-decoration: none;
+    color: white;
+}
+
+.formContac{
+    margin-top: 1rem;
+}
+
